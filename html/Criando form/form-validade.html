@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesquisa do Google</title>
+  </head>
+  <body>
+    <div>
+      <h3>Encontre no google</h3>
+      <form action="https://www.google.com/search">
+        <label for="q">O que deseja pesquisar?</label>
+        <input type="text" id="q" name="q" placeholder="Nasa,SpaceX" required />
+        <input type="submit" value="Pesquisar" />
+      </form>
+    </div>
+    <div>
+      <h3>Procure seu video.</h3>
+      <form action="https://www.youtube.com/results">
+        <label for="search_query">Digite o nome o champion</label>
+        <input
+          type="text"
+          id="search_query"
+          name="search_query"
+          placeholder="link aqui..."
+          required
+        />
+        <input type="submit" value="Pesquisar" />
+      </form>
+    </div>
+    <div>
+      <h3>Procure o email</h3>
+      <form action="https://www.instagram.com/explore/search/keyword/">
+        <label for="q">Digite o email</label>
+        <input type="email" id="q" name="q" placeholder="nick aqui" required />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <div>
+      <h3>Validando numeros maximo e minimo</h3>
+      <form action="">
+        <label for="">Min 0 | Max 12</label>
+        <input type="number" min="0" max="12" />
+      </form>
+    </div>
+    <section>
+      <h1>Atributos do form</h1>
+      <div>
+        <h3>DataLista</h3>
+        <form>
+          <input list="browsers" />
+          <datalist id="browsers">
+            <option value="Internet Explorer"></option>
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+          </datalist>
+        </form>
+      </div>
+      <div>
+        <h3>AutoFocus</h3>
+        <form action="/action_page.php" autocomplete="on">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" /><br /><br />
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" /><br /><br />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="off"
+          /><br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <div>
+        <h3>Maxlenght e size</h3>
+        <form>
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" size="4" /><br />
+          <label for="pin">PIN:</label><br />
+          <input type="text" id="pin" name="pin" maxlength="4" size="4" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
