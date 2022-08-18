@@ -1,0 +1,15 @@
+main {
+  margin: 0 auto;
+  background-color: #fffafa;
+  width: 70%;
+}
+h1 {
+  font-family: "Montserrat";
+}
+h5 {
+  font-family: "Roboto";
+  color: #008080;
+}
+p {
+  font-family: "Open Sans";
+}
