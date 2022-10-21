@@ -1,0 +1,29 @@
+- A fim de representar empregados em uma firma, crie uma classe chamada Empregado que
+inclui as três informações a seguir como atributos:
+• um primeiro nome,
+• um sobrenome, e
+• um salário mensal.
+Sua classe deve ter um construtor que inicializa os três atributos. Forneça um método set e get para cada
+atributo. Se o salário mensal não for positivo, configure-o como 0.0. Escreva um aplicativo de teste que
+demonstra as capacidades da classe. Crie duas instâncias da classe e exiba o salário anual de cada instância.
+Então dê a cada empregado um aumento de 10% e exiba novamente o salário anual de cada empregado
+
+-Crie uma classe IntegerSet para representar um conjunto de números inteiros. Cada objeto
+da classe IntegerSet pode armazenar inteiros no intervalo de 0 até um valor máximo específico para cada
+objeto. O conjunto deve ser representado por um array de booleanos. O elemento do array na posição i
+é verdadeiro se e somente se o inteiro i pertencer ao conjunto. O construtor inicializa o objeto como um
+conjunto vazio (isto é, um conjunto cuja representação de array contém todos os valores falso). Forneça
+métodos para implementar as operações de união, interseção e diferença de conjuntos. Forneça um método
+para inserir um novo elemento no conjunto e outro método para excluir um elemento do conjunto. Forneça
+ainda um método para converter um conjunto para string. Faça uma aplicação para testar a classe
+
+- Escreva um programa completo para jogar o jogo da velha. Para tanto crie uma classe
+JogoDaVelha:
+• a classe deve conter como dados privados um array bidimensional 3x3 para representar a grade do jogo
+• crie uma enumeração para representar as possibilidades de ocupação de uma casa na grade (vazia,
+jogador 1 ou jogador 2)
+• o construtor deve inicializar a grade como vazia
+• forneça um método para exibir a grade
+• permita dois jogadores humanos
+• forneça um método para jogar o jogo; todo movimento deve ocorrer em uma casa vazia; depois de
+cada movimento, determine se houve uma derrota ou um empate.
