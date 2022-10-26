@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <section>
+        <h1>Registo de carros:</h1>
+        <p>
+            <label for="marca">Fabricante:</label>
+            <input type="text" id="marca">
+            <label for="modelo">Modelo:</label>
+            <input type="text" id="modelo">
+            <label for="placa">Placa</label>
+            <input type="text" id="placa" max="5" required>
+            <button onclick="addCar()">Adicionar Carro</button>
+        </p>
+    </section>
+    <hr>
+    <section>
+        <h1>Excluindo Carro:</h1>
+        <p>
+            <label for="reqUser">Digite a placa do carro:</label>
+            <input type="text" max="5" required id ="reqUser">
+            <button onclick="removerCar()">Remover Carro</button>
+        </p>
+    </section>
+    <hr>
+    <section>
+        <h1>Lista de carros</h1>
+        <ul id="content-car"></ul>
+    </section>
+</body>
+</html>
