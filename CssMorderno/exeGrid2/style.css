@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainSection{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.384);
+    display: flex;
+    flex-direction: column;
+   
+}
+.sectionHeader{
+    background-color: red;
+    width: 100%;
+    height:3vh;
+    justify-content: flex-start;
+    margin-bottom: 2%;
+}
+.sectionFooter{
+    margin-top: 2%;
+    height: 5vh;
+    width: 100%;
+    background-color: brown;
+
+}
+.sectionGrid{
+    min-height:40vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.contentGrid{
+    max-width: 100%;
+    min-width: 40%;
+    min-height: 83vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(60vh auto);
+    gap: 1vh 1vw;
+    grid-template-areas: 
+    "item1 item2 item3"
+    "item1 item2 item3"
+    "item4 item4 item4"
+    "item4 item4 item4"
+    "item5 item5 item6"
+    "item5 item5 item6"
+    ;
+   
+}
+.itemGrid{
+    background-color: rgba(0, 0, 0, 0.245);
+    color: black;
+  
+}
+.item1{
+   grid-area: item1;
+    
+}
+.item2{
+  grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+.item4{
+    grid-area: item4;
+   
+}
+.item5{
+    grid-area: item5;
+
+}
+.item6{
+   grid-area: item6;
+
+}
+
