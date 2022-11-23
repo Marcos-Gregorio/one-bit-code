@@ -1,0 +1,315 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+
+}
+
+.mainContent{
+ display: flex;
+ flex-direction: column;
+}
+
+.mainHeader{
+    flex: 0 0 10vh;
+    height: 200vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    justify-items:center;
+    
+}
+#anchor{
+    align-items: center;
+    margin-left: 10%;
+}
+#anchor>img{
+    margin-top: 2%;
+    width: 20vw;
+    margin-bottom: 2%;
+}
+.btnNav{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    justify-items: center;
+
+   
+   
+}
+.spanHouver{
+    width: 7vw;
+    text-align: center;
+    margin-right: 2%;
+   transform: all,1s;
+}
+.spanHouver:hover{
+    border-radius: 10px;
+    background-color: brown;
+
+}
+.spanHouver>a{
+   
+    text-decoration: none;
+    color: white;
+   
+    text-align: center;
+  
+    
+}
+
+/* Section */
+
+.mainSection{
+    flex: 1 0 100%;
+    width: 100%;
+    margin-bottom: 2%;
+ 
+}
+
+/* textSection */
+
+.textSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-justify: center;
+    margin-top: 2vh;
+
+}
+
+/* Display main  Gallery/Banner */
+
+.displaySection{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 70vw 25vw;
+    gap: 2vw 2vh;
+    margin-left: 1%;
+   
+}
+
+/* configGridGallery */
+
+.galeryDisplay{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1vw 1vh;
+   
+}
+
+.contentCard{
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all,1s;
+ 
+}
+
+/* hover */
+.contentCard:hover{
+    background-color: rgba(0, 0, 0, 0.414);
+   
+    border-radius: 8px;
+
+}
+
+.figureImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.figureImg>img{
+ margin-top: 2%;
+ width: 90%;
+ height: 30vh;
+ border-radius: 8px;
+}
+
+.textCard{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.textCard>p{
+    margin-left: 2%;
+}
+
+/* BannerSection */
+
+.bannerDisplay{
+    max-height: 100%;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(30, 29, 32, 0.81);
+    border-radius: 5px;    
+    border-radius: 8px;
+    color: rgba(149, 150, 152, 0.863);
+}
+.bannerDisplay>div{
+    margin-top: 1%;
+}
+.contentBanner{
+    display:flex;
+   flex-direction: column;
+  align-items: center;
+   width: 80%;
+   justify-content: space-around;
+   height: 100%;
+
+    
+}
+/* ItemBanner */
+.bannerCard{
+   
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: all,1.2s;
+    text-align: center;
+    color: rgba(149, 150, 152, 0.863);
+    font-size: .8rem;
+}
+/* houver banerCard */
+.bannerCard:hover{
+    background-color: rgb(205, 205, 223);
+    color: rgb(106, 106, 106);
+    border-radius: 8px 8px 0 8px ;
+
+}
+.figureBanner{
+    align-items: center;
+}
+.figureBanner>img{
+    width: 90%;
+    height: 17vh;
+    margin-top: 2%;
+  
+    border-radius: 8px;
+
+}
+.mainFooter{
+   flex: 1 0 7vh;
+   background-color: rgb(0, 0, 0);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: aliceblue;
+}
+
+.imgFooter{
+   min-width: 6vw;
+   margin-left: 2%;
+   margin-top: 1%;
+}
+.imgFooter>img{
+   max-width:5vw
+
+}
+.textFooter{
+    margin-right: 2%;
+   
+}
+.textFooter >a{
+color: aliceblue;
+}
+.textFooter>a :hover{
+    color: brown;
+
+}
+@media(max-width:1045px){
+    html{
+        font-size: 70%;
+    }
+    #anchor>img{
+        width: 100%;
+    }
+    .mainHeader{
+        height: 50%;
+    }
+    .btnNav{
+        width: 30%;
+    }
+    .spanHouver>a{
+        font-size: 1.2rem;
+    }
+
+}
+@media(max-width:769px){
+    .displaySection{
+        display: flex;
+        flex-direction: column;
+    }
+    .galeryDisplay{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .contentBanner{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .mainHeader{
+        flex-direction: column;
+               
+    }
+    #anchor{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .btnNav{
+        margin-bottom: 2%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 8%;
+    }
+    .spanHouver{
+        width: 30%;
+    }
+    .imgFooter>img{
+        min-width:5vw;
+    
+     }
+}
+@media (max-width:425px) {
+    html{
+        font-size: 60%;
+    }
+    .contentBanner{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .mainFooter{
+        
+        flex-direction: column;
+     
+    }
+    
+    .imgFooter>img{
+        min-width:6vw;     
+     
+    }
+    .textFooter{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        transform: all,1s;
+     }
+  
+}
+@media (max-width:376px) {
+    .galeryDisplay{
+        display: flex;
+        flex-direction: column;
+    }
+    .contentBanner{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+

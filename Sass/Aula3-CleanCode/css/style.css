@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 30vh;
+  margin-left: 40vw;
+  margin-top: 20vh;
+  background-color: black;
+  border-radius: 5px;
+}
+.content h1 {
+  text-align: center;
+  font-size: 60px;
+  font-style: italic;
+  color: rgb(206, 29, 17);
+}
+.content div {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+.content div button {
+  min-width: 5vw;
+  border-radius: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */

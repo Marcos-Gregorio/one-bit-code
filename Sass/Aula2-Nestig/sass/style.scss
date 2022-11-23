@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+$black: rgb(0, 0, 0);
+
+.contentBtn{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    border-radius: 5px;
+    max-width: 20vw;
+    max-height: 30vh;
+    margin-top: 40vh;
+    margin-left: 40vw;
+    
+    
+    p{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        text-align: center;
+        color: red;
+   }
+   div{ 
+    display: flex;
+    justify-content: space-around;
+    button{
+    background-color: $black;
+    color: white;
+    width: 7vw;
+    height: 3.5vh;
+    margin-bottom: 2vh;
+    border-radius: 16px;
+    border: none;
+    &:hover{
+        background-color: bisque;
+        border: none;
+        color: $black;
+       }
+   }
+   
+}
+  
+}

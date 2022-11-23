@@ -1,0 +1,27 @@
+.contentNav{
+    margin-top: 5vh;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    gap: 2%;
+
+}
+.contentNav>div>img{
+    margin-right: 2vw;
+}
+.nav>li{
+    margin-right: 3vw;
+}
+.nav>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.navbar-nav{
+    display: flex;
+}
+.logo{
+    max-width: 20vw;
+}

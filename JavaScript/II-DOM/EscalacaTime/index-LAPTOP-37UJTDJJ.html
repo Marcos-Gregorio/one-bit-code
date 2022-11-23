@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./scripts.js"></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section id="content-main">
+            <h1>Escalando seu próprio time</h1>
+            <form  id="add-content" >
+                <div>
+                    <label for="player-name">Nome do jogador:</label>
+                    <input type="text" name="player-name" id="player-name">
+                </div>
+                <div>
+                     <label for="position-player">Posição do jogador:</label>
+                     <input type="text" name="position-player" id="position-player">
+                </div>
+                <div>
+                    <label for="number-player">Número da camisa do jogador:</label>
+                    <input type="number" name="number-player" id="number-player">
+                </div>
+              
+               
+                <div> <input type="button" onclick="createPlayer()" value="Adicionar" class="btn-add"></div>
+              
+            </form>
+        </section>
+        <hr>
+        <section id="remove-section">
+            
+            <label for="requisitionUser">Insira a camisa do jogador que deseja retirar</label><br>
+            <input type="number" name="requsitonUser" class="reqUser">
+            <input type="button" class="btn-add" onclick="remover()" value="Remover"> 
+        </section>
+        <hr>
+
+
+        <h1>Time escalado</h1>  
+        <section id="list-time">
+
+        </section>
+           
+       
+    </main>
+</body>
+</html>

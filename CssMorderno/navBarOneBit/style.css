@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contentNav{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentNav-img > img{
+    height: 10vh;
+    width: 10vw;
+    
+    margin: 70%;
+}
+.contentNav-img1 > img{
+    height: 10vh;
+    width: 30vw;
+}
+.contentNav-btn{
+    width: 20vw;
+    display: flex;
+    margin-right: 5%;
+    justify-content: space-around;
+    gap: 1vw;
+
+}
+.btn-navBar{
+    width:40% ;
+    height: 9vh;
+    font-size: 1rem;
+    background-color: black;
+    border:solid rgba(255, 255, 255, 0.009) 2px;
+    color: aliceblue;
+    transition: all,.6s;
+}
+.btn-navBar:hover{
+    border:solid rgba(203, 22, 40, 0.725) 2px;
+    color: brown;
+    border-radius: 1rem;
+}
