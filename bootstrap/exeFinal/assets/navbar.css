@@ -1,27 +1,15 @@
-.contentNav{
-    margin-top: 5vh;
-    align-items: center;
-    display:flex;
-    flex-direction: row;
-    margin-left: 5vw;
-    gap: 2%;
-
+#contentNav {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-.contentNav>div>img{
-    margin-right: 2vw;
-}
-.nav>li{
-    margin-right: 3vw;
-}
-.nav>li>a{
-    text-decoration: none;
+.textNav >li >a{
     color: white;
-    font-size: 14px;
-    font-weight: 400;
-}
-.navbar-nav{
-    display: flex;
+    font-weight: 700;
 }
 .logo{
     max-width: 20vw;
+}
+#btnNav{
+    color: aliceblue;
 }
