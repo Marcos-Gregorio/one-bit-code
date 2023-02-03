@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --FontFamily:'Red Hat Display', sans-serif;
+    --PaleBlue:hsl(225, 100%, 94%);
+    --BrightBlue:hsl(245, 75%, 52%);
+    --VeryPaleBlue:hsl(225, 100%, 98%);
+    --DesaturatedBlue:hsl(224, 23%, 55%);
+    --DarkBlue:hsl(223, 47%, 23%);
+}
+body{
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-color: var(--PaleBlue);
+   
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 35%;margin-top: 5%;
+   
+    
+}
+.ImgCard{
+    background-image: url('./images/illustration-hero.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0 0;
+    width: 25vw;
+    height: 25vh;
+}
+.ContentCard{
+    width: 25vw;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--FontFamily);
+    background-color: var(--VeryPaleBlue);
+}
+.ContentCard > h1 {
+    color: var(--DarkBlue);
+    font-weight: 900;
+    margin-top: 5%;
+}
+.ContentCard > p{
+    color: var(--DesaturatedBlue);
+    margin: 5% 10% 5% 10%;
+    font-size: 16px;
+
+}
+.displayContent{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 7vh;
+    justify-items: center;
+    align-items: center;
+   
+    margin-left: 10%;
+    margin-bottom: 5% ;
+    
+}
+
+.ImgDisplay{
+    background-image: url('./images/icon-music.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 6vh;
+    margin-left: 5%;
+
+}
+
+.TextDisplay{
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+.TextDisplay > p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--DesaturatedBlue);
+ 
+}
+.displayContent>a{
+    margin-left: 20%;
+}
+.displayContent > a > p{
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    position: end;
+}
+.BtnActive{
+    text-align: center;
+    width: 80%;
+    height: 5vh;
+    font-family: var(--FontFamily);
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 10%;
+    background-color: var(--BrightBlue);
+    color: var(--PaleBlue);
+    font-weight: 600;
+}

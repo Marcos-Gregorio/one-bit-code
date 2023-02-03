@@ -114,9 +114,9 @@ a{
 .contentShow{
     position: absolute;
     background-color: var(--veryDarkGrayBlue);
-    margin-top: 10px;
+    top: 51.5vh;
     left: 77.4%;
-    bottom: 31.3%;
+    
     width: 10vw;
     height: 5vh;
     border-radius: 8px 8px 8px 8px;
@@ -131,14 +131,14 @@ a{
     font-size: 12px;
     color: var(--grayBlue);
 }
-.contentShow> div{
+.contentShow > div{
     display: flex;
     width: 40%;
     justify-content: space-around;
     margin-right: 5%;
     
 }
-.contentShow > div> a{
+.contentShow > div > a{
     text-decoration: none;
     color: var(--lightGrayBlue);
     font-size: 13px;
@@ -150,6 +150,19 @@ a{
     height: 0;
     transform: all,1s;
     
+}
+@media(max-width: 1024px){
+  
+    .contentShow{
+        top: 65vh;
+        position: absolute;
+        flex-direction: column;
+        height: 7.2vh;
+    }
+    .contentShow > div> a{
+      justify-content: space-around;
+    }
+
 }
 @media(max-width: 376px)
 {
@@ -172,5 +185,15 @@ a{
         margin-top: 5%;
         margin-bottom: 5%;
     }
+    .contentShow{
+        position: relative;
+        top: 17vh;
+        justify-content: center;
+        flex-direction: column;
+        height:7vh;
+        width: 30vw;
+        right: 40vw;
+    }
+    
 
 }

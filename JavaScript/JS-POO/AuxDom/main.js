@@ -1,0 +1,5 @@
+const Componnents = require('./Components/Componnents')
+let Div = new Componnents('div')
+console.log(Div)
+Div.Build()
+console.log(Div)

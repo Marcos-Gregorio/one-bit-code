@@ -1,0 +1,4 @@
+.grayImg{
+    max-width: 100px;
+    filter: grayscale(100%);
+}
